@@ -50,5 +50,3 @@ python test.py --config configs/voxel/kitti/car.py --load_from path/to/checkpoin
 python test.py --config configs/ptv3/nuscenes/car.py --load_from path/to/checkpoint.pth
 python test.py --config configs/pillar/kitti/car.py --load_from path/to/checkpoint.pth
 ```
-
-Use `dist_train.sh` and `dist_test.sh` for distributed runs after setting the config and checkpoint arguments.
